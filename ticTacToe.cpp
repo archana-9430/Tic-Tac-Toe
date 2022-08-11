@@ -119,10 +119,10 @@ int main()
         gameover();
     }
     if(turn == 'X' && draw == false){
-        cout<<"\n\n \t\t\t\t -----------GAME OVER------------ \n Congratulations! Player 1 [X] ]has won the game.";
+        cout<<"\n\n \t\t\t\t -----------GAME OVER------------ \n Congratulations! Player 2 [O] ]has won the game.";
     }
     else if(turn == 'O' && draw == false){
-        cout<<"\n\n \t\t\t\t -----------GAME OVER------------ \n Congratulations! Player 2 [O] has won the game.";
+        cout<<"\n\n \t\t\t\t -----------GAME OVER------------ \n Congratulations! Player 1 [X] has won the game.";
     }
     else
     cout<<"\n\n ---GAME DRAW!!!----\n\n";
